@@ -1,0 +1,42 @@
+.contatos {
+    background-color: var(--branco);
+    padding: 1em ;
+}
+
+.contatos__titulo,
+.contatos__descrição {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contatos__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contatos__descrição {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contatos__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 85%;
+    color: var(--azul);
+}
+
+.contatos__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("../assets/carta.svg") no-repeat;
+    background-position: 1em;
+}
+
+.contatos__email:placeholder-shown {
+    color: var(--azul);
+    padding-left: 2.5rem;
+}
