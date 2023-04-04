@@ -15,6 +15,7 @@ hr {
     .rodape {
         display: flex;
         justify-content: space-around;
+        background: var(--cor-de-fundo);
     }
 
     .lista-rodape {
