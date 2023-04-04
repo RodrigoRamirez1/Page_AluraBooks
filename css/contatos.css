@@ -40,3 +40,24 @@
     color: var(--azul);
     padding-left: 2.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .contatos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contatos__titulo {
+        font-size: 24px;
+    }
+
+    .contato__texto {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contatos__email {
+        width: 30%;
+    }
+}
